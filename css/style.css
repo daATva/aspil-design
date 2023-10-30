@@ -461,7 +461,7 @@ body{
 	font-size: 18px;
 	line-height: 22px;
 	text-align: center;
-	margin: 45px 0px 99px 0px;
+	margin: 45px 0px 69px 0px;
 	position: relative;
 }
 
@@ -659,3 +659,21 @@ body{
 	height: 0%;
 }
 
+.video__image{
+	width: 700px;
+	height: 468px;
+
+}
+
+.video__image-1{
+	background: url('../video/1.jpg') 0 0/cover no-repeat;
+	
+}
+.video__image-2{
+	background: url('../video/2.jpeg') 0 0/cover no-repeat;
+
+}
+.video__image-3{
+	background: url('../video/3.jpg') 0 0/cover no-repeat;
+
+}
