@@ -103,20 +103,22 @@ body{
 }
 
 
+
+
 .menu {
 	display: flex;
 	justify-content: center;
 }
 .menu__list {
 	display: flex;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 22px;
 	border-bottom:1px solid #828282;
-	padding: 33px 0px 31px 0px;
+	column-gap: 50px;
 }
 .menu__item {
 	text-align: center;
-	margin: 0px 102px 0px 0px;
+	margin: 0px 0px 20px 0px;
 	display: inline-block;
 	padding: 6px 12px 4px 10px;
 }
@@ -162,7 +164,10 @@ body{
 
 .menu__link {
 	color: #000;
+	font-size: clamp(28px, 8vm, 60px);
 }
+
+
 
 .menu__link:hover {
 	color: #ffffff;
@@ -655,8 +660,9 @@ body{
 }
 
 .video__image{
-	width: 700px;
+	width: clamp(700px, 30% ,300px);
 	height: 468px;
+	display: block;
 
 }
 
@@ -671,4 +677,16 @@ body{
 .video__image-3{
 	background: url('../video/3.jpg') 0 0/cover no-repeat;
 
+}
+
+.menu__list {
+	font-size: clamp(28px, 8vm, 60px);
+}
+
+@media (width:560.98px){
+	.menu__item{
+		font-size: 24px;
+		column-gap: 20px;
+
+	}
 }
