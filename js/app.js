@@ -70,10 +70,42 @@ let user = makeUser();
 
 alert( user.ref.name ); // Каким будет результат?
 
-let calculator = {
-    // ... ваш код ...
-  };
   
-  calculator.read();
-  alert( calculator.sum() );
-  alert( calculator.mul() );
+
+// calculator.read = function(){
+//     a = prompt('Введите значение a');
+//     b = prompt('Введите значение b'); 
+//     this.a = a;
+//     this.b = b;
+// }
+// calculator.sum = function(a,b){
+//     const sum = a + b
+//     return sum
+// }
+// calculator.mul = function(a,b){
+//     const mult = a * b
+//     return mult
+// }
+
+// function Calculator () {
+//     sum() {
+//       return this.a + this.b;
+//     },
+  
+//     mul() {
+//       return this.a * this.b;
+//     },
+  
+//     read() {
+//       this.a = +prompt('a?', 0);
+//       this.b = +prompt('b?', 0);
+//     }
+//   };
+
+// calculator.read();
+// alert( calculator.sum() );
+// alert( calculator.mul() );
+
+
+// let calculators = new Calculator();
+// calculator.read();
