@@ -220,24 +220,6 @@ body{
 
 }
 
-/* .img__squad{
-	position: relative;
-	width: 420px;
-	height: 600px;
-	border: 2px solid #000;
-	overflow: hidden;
-	margin: 0 auto;
-}
-.img__block{
-	width: 720px;
-	height: 1280px;
-	position: absolute;
-	right: -150px;
-	top: -270px;
-	background: url('../img/photo.jpg')0 0/720px 1280px no-repeat; */
-/* } */
-
-
 .name__slider {
 	width: 100%;
 	display: flex;
