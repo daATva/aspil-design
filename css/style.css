@@ -103,7 +103,7 @@ body{
 }
 
 .menu__item:last-child {
-	margin: 0px ;
+	/* margin: 0px ; */
 }
 .menu__item::before {  
 	transform: scaleX(0);
@@ -426,7 +426,7 @@ body{
 	font-size: 18px;
 	line-height: 22px;
 	text-align: center;
-	margin: 45px 0px 69px 0px;
+	margin: 0px 0px 60px 0px;
 	position: relative;
 }
 
