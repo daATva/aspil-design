@@ -49,28 +49,7 @@ body{
 	margin: 0 auto;
 	padding: 0px 15px;
 }
-/* 
-	PC
-	@media (max-width:1087px){
-		[class*="__container"]{
-			/* max-width: 970px; 
-		}
-	}
 
-	 PC 
-	@media (max-width:992px){
-		[class*="header__container"]{
-			max-width: 750px;
-		}
-	}
-
-	 MOBILE 
-	@media (max-width:767.98px){
-		[class*="__container"]{
-			max-width: none;
-		}
-	} 
-*/
 .wrapper{
 	overflow: hidden;
 	display: flex;
@@ -648,11 +627,11 @@ body{
 }
 
 .video__image-1{
-	background: url('../video/1.jpg') 0 0/cover no-repeat;
+	background: url('./image_bg/1.jpg') 0 0/cover no-repeat;
 	
 }
 .video__image-2{
-	background: url('../video/2.jpeg') 0 0/cover no-repeat;
+	background: url('./image_bg/2.jpeg') 0 0/cover no-repeat;
 
 }
 .video__image-3{
